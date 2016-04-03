@@ -21,3 +21,30 @@ Code Structure:
  Future Scope:
  
  We can also add many more features in that app like if a user view a case of accident while travelling he can add that location on the app with picture and we immediately provide ambulance services.
+
+How to run and contribute:
+	-> Install Android Studio.
+	-> Clone the repo and open it in Android Studio.
+	-> Run the application.
+
+Instructions to use:
+
+Screen 1: It has option of login or signup.
+
+Screen 2/3:
+2-> When clicked on login , it asks for username and password.
+3-> When clicked on signup, it asks for creentials and signs you up.
+
+Screen 4:
+Main Screen opens which has a start button.
+Clicking on this start the main app login to prevent life loss.
+
+Screen 5:
+It automatically detects users latitude, longitude and speed. 
+If a user comes in a range of 500m of accident prone region they are given a vocal warning(TexttoSpeech) about the area and on screen the accidents are listed.
+If a user is fast he is asked to slow down as well.
+
+This we have implemented. Further we will detect if other persons are on the same area but  moving in different directions towards the same accident zone , they are issued warning.
+
+
+	
