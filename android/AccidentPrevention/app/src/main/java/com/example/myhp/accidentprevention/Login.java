@@ -136,7 +136,7 @@ user_info=getSharedPreferences("userinfo",0);
 
                                 Class i = null;
                                 try {
-                                    i = Class.forName("com.example.myhp.accidentprevention.LocationTry");
+                                    i = Class.forName("com.example.myhp.accidentprevention.MainActivity");
                                 } catch (ClassNotFoundException e) {
                                     e.printStackTrace();
                                 }

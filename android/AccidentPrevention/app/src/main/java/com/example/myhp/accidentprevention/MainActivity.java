@@ -18,8 +18,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
-        Intent in=new Intent(getApplicationContext(),LocationTry.class);
-        startActivity(in);
+        findViewById(R.id.start).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in=new Intent(getApplicationContext(),LocationTry.class);
+                startActivity(in);
+            }
+        });
+
 
 
     }

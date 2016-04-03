@@ -14,7 +14,6 @@ public class Firsttime extends AppCompatActivity implements View.OnClickListener
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bloodmain);
-
         findViewById(R.id.firsttime_login).setOnClickListener(this);
         findViewById(R.id.firsttime_signup).setOnClickListener(this);
     }
