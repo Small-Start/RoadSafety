@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_signup"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/name_textinput_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_signup_name"
+        android:hint="Name"
+        android:fontFamily="sans-serif-light"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_textinput_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_signup_username"
+        android:hint="Username"
+        android:fontFamily="sans-serif-light"/>
+    </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+        android:id="@+id/email_textinput_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_signup_email"
+        android:hint="E-mail"
+        android:fontFamily="sans-serif-light"/>
+    </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+        android:id="@+id/mobileno_textinput_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+                <EditText
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_signup_mobile"
+        android:hint="Mobile No"
+        android:fontFamily="sans-serif-light"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+        android:id="@+id/password_textinput_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+                <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_signup_pass"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Password"
+        android:fontFamily="sans-serif-light"
+        />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+        android:id="@+id/confirmpassword_textinput_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+                <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_signup_confirmpass"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+    android:text="Blood Group:"
+    android:fontFamily="sans-serif-medium"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+
+
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/bsignup"
+        android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
