@@ -33,11 +33,11 @@ Screen 1: It has option of login or signup.
 
 Screen 2/3:
 2-> When clicked on login , it asks for username and password.
-3-> When clicked on signup, it asks for creentials and signs you up.
+3-> When clicked on signup, it asks for credentials and signs you up.
 
 Screen 4:
 Main Screen opens which has a start button.
-Clicking on this start the main app login to prevent life loss.
+Click on this start button in the main app login to prevent life loss.
 
 Screen 5:
 It automatically detects users latitude, longitude and speed. 
